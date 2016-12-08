@@ -3,20 +3,17 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Vim airline setting | iQuinn</title>
+    <title>分类: Airline | iQuinn</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="解决乱码问题12345678910111213&quot;---------------alrLine Config--------------        if !exists(&apos;g:airline_symbols&apos;)        let g:airline_symbols = &amp;#123;&amp;#125;        endif        let g:airline_symbols.space =">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Vim airline setting">
-<meta property="og:url" content="http://iquinn.github.io/2016/11/19/setting-md/index.html">
+    <meta name="description" content="Action Speaks Louder Than Words">
+<meta property="og:type" content="website">
+<meta property="og:title" content="iQuinn">
+<meta property="og:url" content="http://iquinn.github.io/categories/VIM/Airline/index.html">
 <meta property="og:site_name" content="iQuinn">
-<meta property="og:description" content="解决乱码问题12345678910111213&quot;---------------alrLine Config--------------        if !exists(&apos;g:airline_symbols&apos;)        let g:airline_symbols = &amp;#123;&amp;#125;        endif        let g:airline_symbols.space =">
-<meta property="og:image" content="https://iquinn.github.io/2016/11/19/setting-md/pic.png">
-<meta property="og:updated_time" content="2016-12-08T16:56:08.000Z">
+<meta property="og:description" content="Action Speaks Louder Than Words">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Vim airline setting">
-<meta name="twitter:description" content="解决乱码问题12345678910111213&quot;---------------alrLine Config--------------        if !exists(&apos;g:airline_symbols&apos;)        let g:airline_symbols = &amp;#123;&amp;#125;        endif        let g:airline_symbols.space =">
-<meta name="twitter:image" content="https://iquinn.github.io/2016/11/19/setting-md/pic.png">
+<meta name="twitter:title" content="iQuinn">
+<meta name="twitter:description" content="Action Speaks Louder Than Words">
     
 
     
@@ -212,21 +209,25 @@
 </aside>
 
             
-            <section id="main"><article id="vim-setting-md" class="article article-type-vim" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
+            <section id="main">
+<div class="timeline timeline-wrap">
+    <div class="timeline-row timeline-row-major">
+        <span class="node"><i class="fa fa-folder"></i></span>
+        <h1 class="title">Airline</h1>
+    </div>
+    
+        <div class="timeline-row">
+            <span class="node"></span>
+            <div class="content">
                 
     
-        <h1 class="article-title" itemprop="name">
-            Vim airline setting
+        <h1 itemprop="name">
+            <a class="timeline-article-title" href="/2016/11/19/setting-md/">Vim airline setting</a>
         </h1>
     
 
-                
-                    <div class="article-meta">
-                        
+                <div class="article-meta">
+                    
     <div class="article-date">
         <i class="fa fa-calendar"></i>
         <a href="/2016/11/19/setting-md/">
@@ -235,145 +236,18 @@
     </div>
 
 
-                        
+                    
     <div class="article-category">
     	<i class="fa fa-folder"></i>
         <a class="article-category-link" href="/categories/VIM/">VIM</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/VIM/Airline/">Airline</a>
     </div>
 
-                        
-                    </div>
-                
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            
-            <h3 id="解决乱码问题"><a href="#解决乱码问题" class="headerlink" title="解决乱码问题"></a>解决乱码问题</h3><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="comment">"---------------alrLine Config--------------</span></div><div class="line">        <span class="keyword">if</span> !exists(<span class="string">'g:airline_symbols'</span>)</div><div class="line">        <span class="keyword">let</span> <span class="variable">g:airline_symbols</span> = &#123;&#125;</div><div class="line">        <span class="keyword">endif</span></div><div class="line">        <span class="keyword">let</span> <span class="variable">g:airline_symbols</span>.space = <span class="string">"\ua0"</span></div><div class="line">        <span class="keyword">let</span> <span class="variable">g:airline_exclude_filename</span> = []</div><div class="line">        <span class="keyword">let</span> <span class="variable">g:Powerline_symbols</span>=<span class="string">'fancy'</span></div><div class="line">        <span class="keyword">let</span> <span class="variable">g:airline_powerline_fonts</span>=<span class="number">0</span></div><div class="line">        <span class="keyword">let</span> Powerline_symbols=<span class="string">'fancy'</span></div><div class="line">        <span class="keyword">let</span> <span class="variable">g:bufferline_echo</span>=<span class="number">0</span></div><div class="line">        <span class="keyword">set</span> laststatus=<span class="number">2</span></div><div class="line">        <span class="keyword">set</span> t_Co=<span class="number">256</span></div><div class="line">        <span class="keyword">set</span> fillchars+=<span class="keyword">st</span><span class="variable">l:</span>\ ,stlnc:\<span class="comment">"</span></div></pre></td></tr></table></figure>
-<p>### </p>
-<a id="more"></a>
-<p>添加相应符号<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="comment">" unicode symbols</span></div><div class="line"><span class="keyword">let</span> <span class="variable">g:airline_left_sep</span> = <span class="string">'»'</span></div><div class="line"><span class="keyword">let</span> <span class="variable">g:airline_left_sep</span> = <span class="string">'▶'</span></div><div class="line"><span class="keyword">let</span> <span class="variable">g:airline_right_sep</span> = <span class="string">'«'</span></div><div class="line"><span class="keyword">let</span> <span class="variable">g:airline_right_sep</span> = <span class="string">'◀'</span></div><div class="line"><span class="keyword">let</span> <span class="variable">g:airline_symbols</span>.linenr = <span class="string">'␊'</span></div><div class="line"><span class="keyword">let</span> <span class="variable">g:airline_symbols</span>.linenr = <span class="string">'␤'</span></div><div class="line"><span class="keyword">let</span> <span class="variable">g:airline_symbols</span>.linenr = <span class="string">'¶'</span></div><div class="line"><span class="keyword">let</span> <span class="variable">g:airline_symbols</span>.branch = <span class="string">'⎇'</span></div><div class="line"><span class="keyword">let</span> <span class="variable">g:airline_symbols</span>.paste = <span class="string">'ρ'</span></div><div class="line"><span class="keyword">let</span> <span class="variable">g:airline_symbols</span>.paste = <span class="string">'Þ'</span></div><div class="line"><span class="keyword">let</span> <span class="variable">g:airline_symbols</span>.paste = <span class="string">'∥'</span></div><div class="line"><span class="keyword">let</span> <span class="variable">g:airline_symbols</span>.whitespace = <span class="string">'Ξ'</span></div></pre></td></tr></table></figure></p>
-
-        
-        </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
-</div>
-
-    <a data-url="http://iquinn.github.io/2016/11/19/setting-md/" data-id="ciwgmab8j000625mjf59i538b" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-        <a href="http://iquinn.github.io/2016/11/19/setting-md/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://iquinn.github.io/2016/11/19/setting-md/">评论</a>
-    
-
-        </footer>
-    </div>
-    
-        
-<nav id="article-nav">
-    
-        <a href="/2016/11/19/World/" id="article-nav-newer" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">上一篇</strong>
-            <div class="article-nav-title">
-                
-                    Spring boot 学习指南-HelloWorld
-                
+                    
+                </div>
             </div>
-        </a>
+        </div>
     
-    
-        <a href="/2016/11/18/put-accumulate-element的区别-md/" id="article-nav-older" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">下一篇</strong>
-            <div class="article-nav-title">JAVA put,accumulate,element的区别.md</div>
-        </a>
-    
-</nav>
-
-
-    
-</article>
-
-
-    
-    <section id="comments">
-    
-        
-    <div id="disqus_thread">
-        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </div>
-
-    
-    </section>
-
+</div>
 </section>
             
                 <aside id="sidebar">
@@ -553,13 +427,11 @@
     <script>
     var disqus_config = function () {
         
-            this.page.url = 'http://iquinn.github.io/2016/11/19/setting-md/';
-        
-        this.page.identifier = 'setting-md';
+        this.page.identifier = 'undefined';
     };
     (function() { 
         var d = document, s = d.createElement('script');  
-        s.src = '//' + 'hexo-theme-icarus' + '.disqus.com/embed.js';
+        s.src = '//' + 'hexo-theme-icarus' + '.disqus.com/count.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();
